@@ -32,7 +32,7 @@ class Node<T extends Comparable<T>> {
      * @param data target data to be stored in a node
      */
     public Node(T data) {
-        this.data = data;
+        this(data, null, null);
     }
 
 

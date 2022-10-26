@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.LinkedList;
 
 /**
@@ -36,7 +37,8 @@ public class CommandProcessor {
 
             while ((sCurrentLine = br.readLine()) != null) {
 
-                temp = sCurrentLine.strip();
+                temp = sCurrentLine;
+
 
                 row = temp.split(" ");
                 processRow(row);

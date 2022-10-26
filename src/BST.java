@@ -9,8 +9,10 @@ import java.util.LinkedList;
  * @version version 1
  */
 public class BST<T extends Comparable<T>> implements BSTInterface {
-    private Node<T> root;
     private final LinkedList<String> nodes = new LinkedList<>();
+    private Node<T> root;
+    private int size;
+
 
     /**
      * Constructor Method

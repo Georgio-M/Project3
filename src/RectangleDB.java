@@ -3,6 +3,8 @@ import java.io.File;
 /**
  * The class containing the main method.
  *
+ * @author Georgio McGarrah
+ * @version Version 1
  */
 public class RectangleDB {
     /**
@@ -22,8 +24,6 @@ public class RectangleDB {
     /**
      * The class containing the main method.
      *
-     * @author Georgio McGarrah
-     * @version Version 1
      */
 
 // On my honor:

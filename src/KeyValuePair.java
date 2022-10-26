@@ -5,7 +5,7 @@ import java.awt.*;
  * @author Georgio McGarrah
  * @version version 1
  */
-class KeyValuePair {
+class KeyValuePair implements Comparable<KeyValuePair> {
     private String key;
     private Rectangle rec;
 
@@ -56,5 +56,10 @@ class KeyValuePair {
      */
     public void setRec(Rectangle rec) {
         this.rec = rec;
+    }
+
+    @Override
+    public int compareTo(KeyValuePair o) {
+        return 0;
     }
 }
